@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import App from './App';
+import {ContextProvider} from './SocketContext';
 import './styles.css';
-
-ReactDom.render(<App/>,document.getElementById('root'));
+ReactDom.render(
+<ContextProvider>
+<App/>
+</ContextProvider>
+,document.getElementById('root'));
