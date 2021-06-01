@@ -6,5 +6,5 @@ import './styles.css';
 ReactDom.render(
 <ContextProvider>
 <App/>
-</ContextProvider>
-,document.getElementById('root'));
+</ContextProvider>,
+document.getElementById('root'));
